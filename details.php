@@ -15,6 +15,7 @@
   <div id="content">
     <?php include('inc/details.php');?>
   </div>
+  <?php include('inc/leadform.php');?>
   <?php include('inc/footer.php');?>
 </div>
 </div>

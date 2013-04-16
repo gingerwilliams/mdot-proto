@@ -17,7 +17,7 @@ $('body').scrollTop(1);
 
 // $("#menu_button").click(function () {
  // $("#page").toggleClass("menu_open",500);
-	//$("#menu_close").show();
+  //$("#menu_close").show();
 //});
 
 
@@ -27,20 +27,20 @@ $('#menu_button').click(function() {
     left: ['+=150', 'swing'],
   }, 150, function() {
       $("#page").addClass("menu_open");
-	    $("#menu_close").show();
+      $("#menu_close").show();
   });
 });
 
 
 $('#menu_close').click(function() {
-	if ( $("#page").hasClass("menu_open") ) {
+  if ( $("#page").hasClass("menu_open") ) {
   $('#page').animate({
     left: ['-=150', 'swing'],
   }, 150, function() {
       $("#page").removeClass("menu_open");
-	    $("#menu_close").hide();
+      $("#menu_close").hide();
   });
-	}
+  }
 });
 
 
@@ -64,12 +64,25 @@ window.onresize = function () {
 
 
 //$("#menu_close").mousedown(function () {
-	
-	//if ( $("#page").hasClass("menu_open") ) {
+  
+  //if ( $("#page").hasClass("menu_open") ) {
 //$("#page").removeClass("menu_open");
 //$("#menu_close").hide();
 //}
 //});
+
+
+// hide and show controls
+$('.btn_check_avail').click(function () {
+  $(".slide_up_box").show( function() {$("#leadform").show('fast');});
+  
+});
+
+$('.slide_up .close').click(function () {
+  $(".slide_up").hide('fast',function() {$(".slide_up_box").hide();});
+  
+});
+
 
 
 

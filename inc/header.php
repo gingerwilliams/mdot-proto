@@ -9,6 +9,6 @@
   <div id="search_bar">
     <div id="search_box"> <a href="search.php" class="icon_nearby sprite"></a>
       <input type="text" id="search_field" Value="Search Apartments">
-      <a href="search.php" class="button">GO</a> </div>
+      <a href="search.php" class="sprite icon_search"></a> </div>
   </div>
 </div>

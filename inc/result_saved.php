@@ -10,10 +10,7 @@
     <p class="address">Carmel, IN, 46032</p>
     <p>Price: <strong>$1000 - $2000</strong> | Beds: <strong>1 - 3</strong></p>
     <p class="rating_box">
-      <span class="ratings_stars">
-        <span class="ratings_stars_mask sprite"></span>
-        <span class="ratings_meter" style="width:45px"></span>
-      
+      <span class="ratings_stars sprite">
       </span>
     </p>
     
